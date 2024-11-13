@@ -1,0 +1,187 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Tamaño base */
+}
+
+/* Estilo del título */
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #333;
+    font-size: 2em;
+}
+
+/* Estilo del carrito */
+.carrito {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.carrito:hover {
+    background-color: #555;
+}
+
+.carrito i {
+    font-size: 1.5em;
+}
+
+.carrito span {
+    font-weight: bold;
+}
+
+/* Estilos del nav */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Estilos para menús desplegables */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%; /* Aparece debajo del enlace principal */
+    left: 0;
+    background-color: #333;
+    padding: 10px 0;
+    list-style: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li ul li a {
+    padding: 10px 15px;
+    border: none;
+    display: block;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+nav ul li ul li a:hover {
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Estilos para la lista de componentes */
+ul.categorias {
+    list-style: none;
+    margin: 20px auto;
+    padding: 0;
+    width: 80%;
+}
+
+ul.categorias li {
+    background-color: #fff;
+    padding: 20px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+ul.categorias li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul.categorias li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+ul.categorias li a:hover {
+    color: #007BFF;
+}
+
+/* Efectos generales */
+ul.categorias li img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+        padding: 15px 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    ul.categorias {
+        width: 100%;
+    }
+
+    ul.categorias li {
+        padding: 10px;
+        margin: 5px 0;
+    }
+}
