@@ -39,7 +39,7 @@
                 </div>
                 <h4>Procesador Intel Core i5 12400 4.4GHz Turbo</h4>
                 <p>$195.000</p>
-                <button class="add-to-cart" data-id="3">Comprar</button>
+                <button class="add-to-cart" data-id="1">Comprar</button>
             </div>
             <!-- Producto 2 -->
             <div class="card">
@@ -50,7 +50,7 @@
                 </div>
                 <h4>Procesador Intel Core i7 12700KF 5.0GHz Turbo</h4>
                 <p>$320.000</p>
-                <button class="add-to-cart" data-id="4">Comprar</button>
+                <button class="add-to-cart" data-id="2">Comprar</button>
             </div>
         </div>
     </main>

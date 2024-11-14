@@ -39,7 +39,7 @@
                 </div>
                 <h4>Memoria Ram Fury Beast 16gb Ddr4 3200MHZ</h4>
                 <p>$70.000</p>
-                <button class="add-to-cart" data-id="7">Comprar</button>
+                <button class="add-to-cart" data-id="5">Comprar</button>
             </div>
             <!-- Producto 2 -->
             <div class="card">
@@ -49,7 +49,7 @@
                 </div>
                 <h4>Memoria Kingston Fury Beast 32GB DDR5</h4>
                 <p>$140.000</p>
-                <button class="add-to-cart" data-id="8">Comprar</button>
+                <button class="add-to-cart" data-id="6">Comprar</button>
             </div>
         </div>
     </main>

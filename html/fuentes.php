@@ -41,7 +41,7 @@
                 </div>
                 <h4>Fuente Gigabyte 650W 80 Plus Bronze P650B</h4>
                 <p>$90.000</p>
-                <button class="add-to-cart" data-id="13">Comprar</button>
+                <button class="add-to-cart" data-id="11">Comprar</button>
             </div>
             <!-- Producto 2 -->
             <div class="card">
@@ -52,7 +52,7 @@
                 </div>
                 <h4>Fuente Gigabyte 750W 80 Plus Gold UD750GM</h4>
                 <p>$170.000</p>
-                <button class="add-to-cart" data-id="14">Comprar</button>
+                <button class="add-to-cart" data-id="12">Comprar</button>
             </div>
             <!-- Añadir más tarjetas de productos según sea necesario -->
         </div>

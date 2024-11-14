@@ -42,7 +42,7 @@
         </div>
         <h4>Mother Gigabyte B760 AORUS ELITE AX WIFI DDR5</h4>
         <p>$245.000</p>
-        <button class="add-to-cart" data-id="5">Comprar</button> <!-- Asegúrate de que el ID sea el correcto -->
+        <button class="add-to-cart" data-id="3">Comprar</button> <!-- Asegúrate de que el ID sea el correcto -->
     </div>
     <!-- Producto 2 -->
     <div class="card">
@@ -54,7 +54,7 @@
         </div>
         <h4>Mother MSI Z790 PROJECT ZERO LGA 1700</h4>
         <p>$320.000</p>
-        <button class="add-to-cart" data-id="6">Comprar</button> <!-- Este ID debe coincidir con el de la base de datos -->
+        <button class="add-to-cart" data-id="4">Comprar</button> <!-- Este ID debe coincidir con el de la base de datos -->
     </div>
 </div>
 

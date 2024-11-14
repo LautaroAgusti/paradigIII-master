@@ -40,7 +40,7 @@
                 </div>
                 <h4>MSI GeForce RTX 3060 12GB GDDR6 VENTUS 2X OC</h4>
                 <p>$395.000</p>
-                <button class="add-to-cart" data-id="9">Comprar</button>
+                <button class="add-to-cart" data-id="7">Comprar</button>
             </div>
             <!-- Producto 2 -->
             <div class="card">
@@ -51,7 +51,7 @@
                 </div>
                 <h4>MSI GeForce RTX 4060 Ti 8GB GDDR6 Ventus 3X Black OC</h4>
                 <p>$565.000</p>
-                <button class="add-to-cart" data-id="10">Comprar</button>
+                <button class="add-to-cart" data-id="9">Comprar</button>
             </div>
             <!-- Agrega más tarjetas de productos de tarjetas de video aquí -->
         </div>

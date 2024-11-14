@@ -40,7 +40,7 @@
                 </div>
                 <h4>Disco Solido SSD M.2 WD 1TB SN770 5150MB/s</h4>
                 <p>$110.000</p>
-                <button class="add-to-cart" data-id="11">Comprar</button>
+                <button class="add-to-cart" data-id="9">Comprar</button>
             </div>
             <!-- Producto 2 -->
             <div class="card">
@@ -50,7 +50,7 @@
                 </div>
                 <h4>Disco Solido SSD Team 2TB Vulcan Z 550MB/s</h4>
                 <p>$130.000</p>
-                <button class="add-to-cart" data-id="12">Comprar</button>
+                <button class="add-to-cart" data-id="10">Comprar</button>
             </div>
             <!-- Más tarjetas de productos -->
         </div>
